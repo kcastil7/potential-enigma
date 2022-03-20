@@ -52,7 +52,7 @@ ${data.testInstructions}
 ${renderLicenseLink(data.license)}
 ## Questions
 You can view my git hub profile at [github.com/${data.username}](https://github.com/${data.username})
-${data.email}`;
+If oyu have any additional questions, you can email me at ${data.email}`;
 }
 
 module.exports = {generateMarkdown, renderLicenseSection};
