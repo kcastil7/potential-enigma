@@ -51,7 +51,7 @@ ${data.testInstructions}
 ## License
 ${renderLicenseLink(data.license)}
 ## Questions
-You can view my git hub profile at [github.com/${data.username}](github.com/${data.username})
+You can view my git hub profile at [github.com/${data.username}](https://github.com/${data.username})
 ${data.email}`;
 }
 

@@ -1,6 +1,6 @@
 
 # Project 7
-## Description ![this is an image](https://img.shields.io/badge/License-MIT-Green.svg)
+## Description ![this is an image](https://img.shields.io/badge/License-Unlicense-Green.svg)
 my project
 ## Installation Instructions
 none
@@ -9,7 +9,7 @@ none
 ## Test Instructions
 none
 ## License
-A short and simple permissive license with conditions only requiring preservation of copyright and license notices. Licensed works, modifications, and larger works may be distributed under different terms and without source code.
+A license with no conditions whatsoever which dedicates works to the public domain. Unlicensed works, modifications, and larger works may be distributed under different terms and without source code.
 ## Questions
-You can view my git hub profile at [github.com/kcastil7](github.com/kcastil7)
+You can view my git hub profile at [github.com/kcastil7](https://github.com/kcastil7)
 kcas
