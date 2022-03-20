@@ -31,7 +31,7 @@ function renderLicenseLink(license) {
 // If there is no license, return an empty string
 function renderLicenseSection(license) {
 if (license!=""){
-  return `![this is an image]${renderLicenseBadge(license)}`;
+  return `![this is an image](${renderLicenseBadge(license)})`;
 }
 
 }
@@ -39,16 +39,16 @@ if (license!=""){
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
   return `#${data.projectTitle}
-  ## ${data.description} ${renderLicenseSection(data.license)}
-  ## Installation Instructions
-  ${data.installationInstructions}
-  ## Contribution Guidelines
-  ${data.contributionGuidelines}
-  ## Test Instructions
-  ${data.testInstructions}
-  ## Questions
-  ${data.username}
-  ${data.email}`;
+## ${data.description} ${renderLicenseSection(data.license)}
+## Installation Instructions
+${data.installationInstructions}
+## Contribution Guidelines
+${data.contributionGuidelines}
+## Test Instructions
+${data.testInstructions}
+## Questions
+${data.username}
+${data.email}`;
 }
 
 module.exports = {generateMarkdown, renderLicenseSection};
