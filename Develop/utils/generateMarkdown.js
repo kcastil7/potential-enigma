@@ -39,7 +39,8 @@ if (license!=""){
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
   return `#${data.projectTitle}
-## ${data.description} ${renderLicenseSection(data.license)}
+##Description  ${renderLicenseSection(data.license)}
+${data.description}
 ## Installation Instructions
 ${data.installationInstructions}
 ## Contribution Guidelines
