@@ -1,8 +1,10 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
+  license = license.split(" ")[0];
+  license = license.split("-")[0];
   if(license != "none"){
-    return "https://img.shields.io/badge/License-" + license.split(" ")[0] + "-Green.svg"
+    return "https://img.shields.io/badge/License-" + license + "-Green.svg"
   }
   return "";
 }
@@ -52,6 +54,7 @@ ${data.testInstructions}
 ${renderLicenseLink(data.license)}
 ## Questions
 You can view my git hub profile at [github.com/${data.username}](https://github.com/${data.username})
+
 If oyu have any additional questions, you can email me at ${data.email}`;
 }
 
